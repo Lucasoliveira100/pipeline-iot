@@ -106,9 +106,9 @@ Abre em http://localhost:8501
 
 ## Capturas de tela
 
-![Média por dispositivo](docs/img/grafico1.png)
-![Leituras por hora](docs/img/grafico2.png)
-![Máximas e mínimas por dia](docs/img/grafico3.png)
+![Média por dispositivo](docs/img/grafico1.JPG)
+![Leituras por hora](docs/img/grafico2.JPG)
+![Máximas e mínimas por dia](docs/img/grafico3.JPG)
 
 ## Insights
 
