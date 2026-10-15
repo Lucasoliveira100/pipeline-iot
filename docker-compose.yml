@@ -1,0 +1,16 @@
+# Sobe o PostgreSQL do projeto (equivale ao docker run da atividade)
+services:
+  banco:
+    image: postgres:16
+    container_name: postgres-iot
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "5432:5432"
+    volumes:
+      - dados_pg:/var/lib/postgresql/data
+
+volumes:
+  dados_pg:
